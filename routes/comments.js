@@ -4,7 +4,7 @@ const Comments = require('../models/Comment')
 
 router.get('/',async(req,res) => {
     try {
-        const comments = Comments.find().populate("user").populate("blog");
+        const comments = await Comments.find().populate("user").populate("blog");
         res.json(comments);
     } catch (error) {
         res.status(500).json({message: error.message})
