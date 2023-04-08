@@ -3,10 +3,10 @@
 This project is a backend API for a blogging platform that allows users to create anf comment on blogs. Users can also view thier nth level ffriends based on the blogs they have commented.
 
 ### Tech Stack
-Node.js
-Express
-MongoDB
-Mongoose
+* Node.js
+* Express
+* MongoDB
+* Mongoose
 
 ### Features
 * User management: Create and retrieve user profiles
