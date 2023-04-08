@@ -2,6 +2,10 @@
 
 This project is a backend API for a blogging platform that allows users to create anf comment on blogs. Users can also view thier nth level ffriends based on the blogs they have commented.
 
+### To run
+`npm start`
+
+
 ### Tech Stack
 * Node.js
 * Express
@@ -31,10 +35,6 @@ This project is a backend API for a blogging platform that allows users to creat
 * `GET /comments`: Get all comments
 * `POST /comments`: Create all comments
 * `GET /comments/:commentId`: Get a specific comments
-
-## To run
-`npm start`
-
 
 
 
