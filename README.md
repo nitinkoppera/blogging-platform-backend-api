@@ -32,6 +32,9 @@ Mongoose
 * `POST /comments`: Create all comments
 * `GET /comments/:commentId`: Get a specific comments
 
+## To run
+`npm start`
+
 
 
 
