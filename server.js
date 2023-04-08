@@ -7,7 +7,6 @@ const cors = require('cors');
 const userRoutes = require('./routes/users');
 const blogRoutes = require('./routes/blogs');
 const commentRoutes = require('./routes/comments');
-const friendRoutes = require('./routes/friends');
 
 const app = express();
 // http request - contains body such as POST, PUT request
@@ -23,7 +22,6 @@ mongoose.connect(MONGODB_URL, {
 app.use('/users', userRoutes);
 app.use('/blogs', blogRoutes);
 app.use('/comments', commentRoutes);
-app.use('/friends', friendRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
